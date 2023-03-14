@@ -16,8 +16,8 @@ jobs:
     - name: make
       run: cd src && make
     - name: test run
-      run: cd src && ./bfc
+      run: cd src && make && ./bfc
     - name: test make dump
-      run: cd src && make dump
+      run: cd src && make && make dump
     - name: test make clean
-      run: cd src && make clean
+      run: cd src && make && make clean
