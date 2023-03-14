@@ -9,4 +9,4 @@ dump:
 	objdump -dS ./bfc
 
 clean:
-	rm -rf $(ALL) *.o *.dSYM
+	rm -rf bfc *.o *.dSYM
