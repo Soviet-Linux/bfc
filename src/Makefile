@@ -1,4 +1,4 @@
-ALL = bfc
+ALL = main
 
 all: $(ALL)
 
